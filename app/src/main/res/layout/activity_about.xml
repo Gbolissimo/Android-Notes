@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="This App was developed by Gbolahan Adegbola, a recipient of Google Udacity Developers Schorlaship, for the ALC Developers Challenge."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textStyle="bold"/>
+
+    <View
+        android:id="@+id/hr"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/timestamp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="©Gbolissimo Technologies"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="14dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="(June 2018)"
+        android:textSize="18dp"
+        android:layout_marginLeft="13dp"
+        android:textColor="@color/timestamp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="gbolissimo@gmail.com"
+        android:textSize="18dp"
+        android:layout_marginLeft="13dp"
+        android:textColor="@color/timestamp"
+        android:textStyle="italic"/>
+</LinearLayout>
